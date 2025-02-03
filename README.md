@@ -7,7 +7,10 @@ Dataset:
 The dataset used in this project is downloaded from the NLTK (Natural Language Toolkit) corpus. It consists of a collection of tweets, each labeled with a sentiment score (positive or negative).
 
 Methodology:
-The data is preprocessed by converting the text of the tweets into numerical features. This is done using techniques such as tokenization, stopword removal, and vectorization. The preprocessed data is then fed into a Logistic Regression model, which is trained to classify the tweets as either positive or negative.
+The data is preprocessed in various ways and then it is converted into numerical features. This is done using techniques such as tokenization, stopword removal, and vectorization. The preprocessed data is then fed into multiple models such as Logistic Regression , Naive Bayes and SVM, which are trained to classify the tweets as either positive or negative.
+
+Result:
+The results from the logistic regression model and the support vector machine (SVM) classifier indicate a high accuracy of 94% in classifying the provided data.
 
 Requirements:
 The following Python libraries are required to run this project:
